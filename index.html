@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Dillier | Coming Soon</title>
+    <style>
+        :root {
+            --bg-color: #fdf6f0; /* Warm Cream */
+            --accent-color: #e67e22; /* Soft Orange/Terracotta */
+            --text-color: #4a3728; /* Deep Earthy Brown */
+            --card-bg: #ffffff;
+        }
 
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            background: var(--card-bg);
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(74, 55, 40, 0.05);
+            border: 1px solid rgba(230, 126, 34, 0.1);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+        }
+
+        p.subtitle {
+            font-style: italic;
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-list li {
+            margin: 15px 0;
+        }
+
+        .contact-list a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid var(--accent-color);
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            width: 80%;
+        }
+
+        .contact-list a:hover {
+            background-color: var(--accent-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Portfolio site coming soon</h1>
+        <p class="subtitle">Max Dillier</p>
+
+        <ul class="contact-list">
+            <li>
+                <a href="https://linkedin.com/in/max-dillier" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <a href="mailto:max@dillier.net">Email Me</a>
+            </li>
+        </ul>
+
+        <footer>
+            &copy; 2026 Max Dillier
+        </footer>
+    </div>
+
+</body>
+</html>
